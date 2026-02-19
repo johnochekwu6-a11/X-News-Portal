@@ -1,9 +1,9 @@
 *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif;}
 body{background:#f4f6f8;color:#333;}
 .navbar{background:#1DA1F2;color:white;display:flex;align-items:center;justify-content:space-between;padding:15px 20px;position:sticky;top:0;z-index:100;}
-.navbar .logo{height:40px;cursor:pointer;}
+.navbar h1{cursor:pointer;}
 .navbar nav{position:relative;}
-.navbar nav .dropdown{position:relative;display:inline-block;}
+.navbar nav .dropdown{position:relative; display:inline-block;}
 .navbar nav .dropbtn{color:white;background:none;border:none;font-size:16px;cursor:pointer;font-weight:bold;}
 .navbar nav .dropdown-content{display:none;position:absolute;background:white;min-width:150px;right:0;box-shadow:0px 8px 16px rgba(0,0,0,0.2);}
 .navbar nav .dropdown-content a{color:#333;padding:10px 15px;text-decoration:none;display:block;}
